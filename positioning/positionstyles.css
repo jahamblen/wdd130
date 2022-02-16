@@ -168,39 +168,43 @@
   display: grid;
   grid-template-columns: 1fr;
   grid-column: 1/4;
-  grid-row: auto;
-  height: 400px;
+  grid-row: bottom;
+  height: 600px;
   
 }
 .red6 {
-  width: 50%; 
-  height: 200px; 
+  width: 40%; 
+  height: 250px; 
   background-color: red; 
   grid-column: 1/4;
 } 
 .green6 {
-  width: 100px; 
-  height: 100px; 
+  width: 200px; 
+  height: 200px; 
   background-color: green; 
-  position:static;
-  left: 50px;
-  bottom: 50px;
+  position:relative;
+  left: -0px;
+  bottom: -150px;
   
 } 
 .yellow6 {
-  width: 100px; 
-  height: 100px; 
+  width: 200px; 
+  height: 180%; 
   background-color: gold;
+  position:relative;
+  right: 250px;
+  bottom: 10px;
   
-  right: 50px;
-  bottom: 50px;
-   
 } 
 .blue6 {
-  width: 100px; 
-  height: 100px; 
+  width: 500px; 
+  height: 400px; 
   background-color: blue; 
-  grid-row: span;
+  position: relative;
+  right: 650px;
+  bottom: 350px;
+  grid-column: 2/4;
+  
   
 } 
 
