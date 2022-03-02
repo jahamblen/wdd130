@@ -25,6 +25,10 @@ nav a {
     max-width: 1600px;
     margin: 0 auto;
 }
+.home-grid {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
 
 #hero {
     display: grid;
