@@ -123,7 +123,6 @@ footer .social img {
 footer h3 a:hover {
     text-decoration: underline;
 }
-
 .icon {
     padding-top: 10px;
     width: 80px;
@@ -185,7 +184,7 @@ footer a:hover {
 }
 
 .rivers-card {
-margin: 200px -250px;
+margin: 200px -165px;
 grid-column: 2/4;
 grid-row: 2/3;
 }
