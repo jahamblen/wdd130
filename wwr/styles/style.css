@@ -253,4 +253,8 @@ grid-row: 2/3;
     footer {
         margin-top: 25px;
     }
+    #rivertitle {
+        color: aqua;
+        text-align: center;
+    }
 }
