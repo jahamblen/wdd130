@@ -294,7 +294,28 @@ form {
 .moveDown {
     margin-top: 3em;
 }
-
+.rivertitle {
+    text-align: center;
+    
+}
+.utah {
+    text-align: center;
+    line-height: 1.5em;
+    padding: 35px;
+    font-family: 'Roboto', cursive; 
+    grid-column: 6/10;  
+    grid-row: 6/7;
+    
+}
+.grand {
+    text-align: center;
+    line-height: 1.5em;
+    padding: 35px;
+    font-family: 'Roboto', cursive; 
+    grid-column: 6/10;  
+    grid-row: 6/7;
+    
+}
 
 
 /*media*/ 
