@@ -1,2 +1,35 @@
 @import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
 
+header {
+    display: grid;
+    grid-template-columns: 150px auto;
+    background-color:#AABD8C;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+nav a {
+    text-align: center;
+    color: #fcfbfb;
+    text-decoration: none;
+    padding: 35px;
+}
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+    }
+    
+    .logo {
+        width: 80px;
+    }
+    footer {
+        background-color: #AABD8C;
+        padding: 25px 50px;
+        margin-top: 200px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        }
