@@ -112,27 +112,84 @@ nav a {
       .alignleft {
           color: #A43312;
         float: left;
-        font-family: 'Lato'
+        font-family: 'Sansita Swashed', cursive;
         
     }
     .alignright {
         color: #A43312;
         float: right;
-        font-family: 'Lato'
+        font-family: 'Sansita Swashed', cursive;
         
     }
     .left {
         color: #A43312;
         float: left;
         font-size: large;
-        font-family: 'Lato'
+        font-family: 'Sansita Swashed', cursive;
         
     }
     .right {
         color: #A43312;
         float: right;
         font-size: large;
-        font-family: 'Lato'
+        font-family: 'Sansita Swashed', cursive;
+    }
+    .subleft {
+        font-family: 'Sansita Swashed', cursive;
+        float: left;
+    }
+    .subtext { 
+        text-align:right
+        
+    }
+    .subtext {
+        color: #A43312;
+        font-family: 'Quicksand', sans-serif;
+    }
+    .hoagieleft {
+        font-family: 'Sansita Swashed', cursive;
+        float: left;
+    }
+    .hoagietext {  
+        text-align:right
+    }
+    .hoagietext {
+        color: #A43312;
+        font-family: 'Quicksand', sans-serif;
+    }
+    .heroleft {
+        font-family: 'Sansita Swashed', cursive;
+        float: left;
+    }
+    .herotext {   
+        text-align:right
+    }
+    .herotext {
+        color: #A43312;
+        font-family: 'Quicksand', sans-serif;
+    }
+    .italianleft {
+        font-family: 'Sansita Swashed', cursive;
+        float: left;
+    }
+    .italiantext {     
+        text-align:right
+    }
+    .italiantext {
+        color: #A43312;
+        font-family: 'Quicksand', sans-serif;
+    }
+    .veggieleft {
+        font-family: 'Sansita Swashed', cursive;
+        float: left;
+    }
+    .veggietext {
+        text-align:right
+        
+    }
+    .veggietext {
+        color: #A43312;
+        font-family: 'Quicksand', sans-serif;
     }
       
      
