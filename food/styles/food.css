@@ -109,6 +109,16 @@ nav a {
       body {
           background-color:#e3fcc1;
       }
+      .sand {
+        font-family: 'Sansita Swashed', cursive;
+      }
+      .side {
+        font-family: 'Sansita Swashed', cursive;
+      }
+      .sauces1 {
+        font-family: 'Sansita Swashed', cursive;
+      }
+
       .sandtext {
           text-align: center;
           text-transform: capitalize;
@@ -246,4 +256,8 @@ nav a {
         float: right;
         
     }  
+    .faq {
+        text-align: center;
+        font-family: 'Sansita Swashed', cursive;
+    }
     
