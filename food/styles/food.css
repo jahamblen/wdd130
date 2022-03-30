@@ -139,10 +139,12 @@ nav a {
         float: left;
     }
     .subtext { 
-        text-align:right
+        
+        text-align:center
         
     }
     .subtext {
+        max-width: 600px;
         color: #A43312;
         font-family: 'Quicksand', sans-serif;
     }
@@ -151,6 +153,7 @@ nav a {
         float: left;
     }
     .hoagietext {  
+        max-width: 480px;
         text-align:right
     }
     .hoagietext {
@@ -162,6 +165,7 @@ nav a {
         float: left;
     }
     .herotext {   
+        max-width: 450px;
         text-align:right
     }
     .herotext {
@@ -172,10 +176,12 @@ nav a {
         font-family: 'Sansita Swashed', cursive;
         float: left;
     }
-    .italiantext {     
-        text-align:right
+    .italiantext {   
+        text-align: right;
+        
     }
     .italiantext {
+        max-width: 500px;
         color: #A43312;
         font-family: 'Quicksand', sans-serif;
     }
@@ -184,6 +190,7 @@ nav a {
         float: left;
     }
     .veggietext {
+        max-width: 550px;
         text-align:right
         
     }
