@@ -109,6 +109,10 @@ nav a {
       body {
           background-color:#e3fcc1;
       }
+      .sandtext {
+          text-align: center;
+          text-transform: capitalize;
+      }
       .alignleft {
           color: #A43312;
         float: left;
