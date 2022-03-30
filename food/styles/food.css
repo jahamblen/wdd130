@@ -112,6 +112,8 @@ nav a {
       .sandtext {
           text-align: center;
           text-transform: capitalize;
+          font-family: 'Sansita Swashed', cursive;
+          
       }
       .alignleft {
           color: #A43312;
@@ -139,12 +141,12 @@ nav a {
         font-family: 'Sansita Swashed', cursive;
     }
     .subleft {
+        white-space: pre;
         font-family: 'Sansita Swashed', cursive;
         float: left;
     }
     .subtext { 
-        
-        text-align:center
+        text-align:right
         
     }
     .subtext {
@@ -153,6 +155,7 @@ nav a {
         font-family: 'Quicksand', sans-serif;
     }
     .hoagieleft {
+        white-space: pre;
         font-family: 'Sansita Swashed', cursive;
         float: left;
     }
@@ -165,11 +168,12 @@ nav a {
         font-family: 'Quicksand', sans-serif;
     }
     .heroleft {
+        white-space: pre;
         font-family: 'Sansita Swashed', cursive;
         float: left;
     }
     .herotext {  
-        margin-left: 20px; 
+         
         max-width: 550px;
         text-align:right
         
@@ -179,6 +183,7 @@ nav a {
         font-family: 'Quicksand', sans-serif;
     }
     .italianleft {
+        white-space: pre;
         font-family: 'Sansita Swashed', cursive;
         float: left;
     }
@@ -192,6 +197,7 @@ nav a {
         font-family: 'Quicksand', sans-serif;
     }
     .veggieleft {
+        white-space: pre;
         font-family: 'Sansita Swashed', cursive;
         float: left;
     }
@@ -204,7 +210,39 @@ nav a {
         color: #A43312;
         font-family: 'Quicksand', sans-serif;
     }
-      
-     
-      
+    .sauces {
+        font-family: 'Sansita Swashed', cursive;
+        float: left;
+    }
+    .chips {
+        font-family: 'Sansita Swashed', cursive;
+        float: left;
+    }
+    .chiptext {
+        max-width: 550px;
+        text-align:right
+        
+    }
+    .chiptext {
+        color: #A43312;
+        font-family: 'Quicksand', sans-serif;
+    }  
+    .drinks {
+        font-family: 'Sansita Swashed', cursive;
+        float: left;
+    }
+    .drinktext {
+        max-width: 550px;
+        text-align:right
+        
+    }
+    .drinktext {
+        color: #A43312;
+        font-family: 'Quicksand', sans-serif;
+    }  
+    .sec {
+        height: 300px;
+        float: right;
+        
+    }  
     
