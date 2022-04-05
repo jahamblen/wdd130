@@ -31,7 +31,7 @@ nav a {
         margin-top: -100px; 
     }
     #main-box {
-        margin-top: 60px;
+        margin-top: 70px;
         grid-column: 1/4;
         grid-row: 1/3;
         z-index: -1;
@@ -41,7 +41,7 @@ nav a {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 65%;
         
         
         
@@ -58,7 +58,7 @@ nav a {
         
     }
     .button-box {
-    top: 42%;
+    top: 37%;
     right: 42%;
     position: absolute;
     padding: 5px 5px;
@@ -362,4 +362,92 @@ form {
     /* make this element invisible until we are ready for it */
     display: none;       
 }
-    
+.flip-box {
+    float: left;
+    background-color: transparent;
+    width: 300px;
+    height: 200px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  }
+  
+  /* This container is needed to position the front and back side */
+  .flip-box-inner {
+    position: relative;
+    width: 140%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  .flip-box:hover .flip-box-inner {
+    transform: rotateY(180deg);
+  }
+  
+  /* Position the front and back side */
+  .flip-box-front, .flip-box-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+  }
+  
+  /* Style the front side */
+  .flip-box-front {
+    background-color: #e3fcc1;
+    color: #A43312;
+    font-family: 'Sansita Swashed', cursive;
+  }
+  
+  /* Style the back side */
+  .flip-box-back {
+    background-color: #e3fcc1;
+    color: #A43312;
+    font-family: 'Sansita Swashed', cursive;
+    transform: rotateY(180deg);
+  }
+  .flip-box2 {
+    float: right;
+    background-color: transparent;
+    width: 300px;
+    height: 200px;
+    border: 1px solid #e3fcc1;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  }
+  .flip-box-inner2 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  .flip-box2:hover .flip-box-inner2 {
+    transform: rotateY(180deg);
+  }
+  
+  /* Position the front and back side */
+  .flip-box-front2, .flip-box-back2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+  }
+  
+  /* Style the front side */
+  .flip-box-front2 {
+    background-color: #e3fcc1;
+    color: #A43312;
+    font-family: 'Sansita Swashed', cursive;
+  }
+  
+  /* Style the back side */
+  .flip-box-back2 {
+    background-color: #e3fcc1;
+    color: #A43312;
+    font-family: 'Sansita Swashed', cursive;
+    transform: rotateY(180deg);
+  }
+      
